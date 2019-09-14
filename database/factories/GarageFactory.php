@@ -19,5 +19,6 @@ use Carbon\Carbon;
 
 $factory->define(Garage::class, function (Faker $faker) {
     return [
+        'capacity' => $faker->sentence()
     ];
 });

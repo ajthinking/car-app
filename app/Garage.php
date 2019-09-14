@@ -12,7 +12,7 @@ class Garage extends Model
      * @var array
      */
     protected $fillable = [
-        'id'
+        'id', 'capacity'
     ];
 
     /**
